@@ -1,0 +1,3 @@
+org.apache.shardingsphere.core.strategy.masterslave.RoundRobinMasterSlaveLoadBalanceAlgorithm
+org.apache.shardingsphere.core.strategy.masterslave.RandomMasterSlaveLoadBalanceAlgorithm
+com.appleframework.dynamic.datasource.shardingjdbc.DynamicMasterSlaveLoadBalanceAlgorithm

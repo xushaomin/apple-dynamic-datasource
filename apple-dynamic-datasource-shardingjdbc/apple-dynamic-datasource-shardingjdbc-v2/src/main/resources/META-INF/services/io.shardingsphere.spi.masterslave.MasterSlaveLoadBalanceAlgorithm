@@ -1,0 +1,3 @@
+io.shardingjdbc.api.algorithm.masterslave.RoundRobinMasterSlaveLoadBalanceAlgorithm
+io.shardingjdbc.api.algorithm.masterslave.RandomMasterSlaveLoadBalanceAlgorithm
+com.appleframework.dynamic.datasource.shardingjdbc.DynamicMasterSlaveLoadBalanceAlgorithm

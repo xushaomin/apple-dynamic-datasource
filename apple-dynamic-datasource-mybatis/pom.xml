@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.appleframework.dynamic.datasource</groupId>
+		<artifactId>apple-dynamic-datasource</artifactId>
+
+		<version>0.0.2.RELEASE</version>
+	</parent>
+	<artifactId>apple-dynamic-datasource-mybatis</artifactId>
+	<name>apple-dynamic-datasource-mybatis</name>
+	<url>http://mvnrepo.appleframework.com</url>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>apple-dynamic-datasource-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+		</dependency>
+
+	</dependencies>
+
+
+</project>
