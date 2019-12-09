@@ -253,11 +253,11 @@
 			<distributionManagement>
 				<repository>
 					<id>apple-releases</id>
-					<url>http://maven.appleframework.com/repository/apple-releases/</url>
+					<url>http://mvnrepo.appleframework.com:8081/nexus/content/repositories/releases/</url>
 				</repository>
 				<snapshotRepository>
 					<id>apple-snapshots</id>
-					<url>http://maven.appleframework.com/repository/apple-snapshots/</url>
+					<url>http://mvnrepo.appleframework.com:8081/nexus/content/repositories/snapshots/</url>
 				</snapshotRepository>
 			</distributionManagement>
 		</profile>
