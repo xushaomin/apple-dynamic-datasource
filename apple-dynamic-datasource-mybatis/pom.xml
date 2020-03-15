@@ -8,7 +8,7 @@
 		<groupId>com.appleframework.dynamic.datasource</groupId>
 		<artifactId>apple-dynamic-datasource</artifactId>
 
-		<version>0.0.2.RELEASE</version>
+		<version>0.0.3-SNAPSHOT</version>
 	</parent>
 	<artifactId>apple-dynamic-datasource-mybatis</artifactId>
 	<name>apple-dynamic-datasource-mybatis</name>

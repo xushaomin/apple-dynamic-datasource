@@ -6,7 +6,7 @@
 
 	<groupId>com.appleframework.dynamic.datasource</groupId>
 	<artifactId>apple-dynamic-datasource</artifactId>
-	<version>0.0.2.RELEASE</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>apple-dynamic-datasource</name>
@@ -15,7 +15,7 @@
 	<properties>
 		<file.encoding>UTF-8</file.encoding>
 		<java.version>1.7</java.version>
-		<project.version>0.0.2.RELEASE</project.version>
+		<project.version>0.0.3-SNAPSHOT</project.version>
 		<spring.version>5.2.1.RELEASE</spring.version>
 	</properties>
 

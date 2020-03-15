@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.appleframework.dynamic.datasource.toolkit.DynamicDataSourceContextHolder;
+import com.appleframework.dynamic.datasource.toolkit.DynamicDataSourceShadowHolder;
 
 public class DynamicMasterSlaveLoadBalanceAlgorithm implements MasterSlaveLoadBalanceAlgorithm {
 
@@ -16,6 +17,10 @@ public class DynamicMasterSlaveLoadBalanceAlgorithm implements MasterSlaveLoadBa
 
 	@Override
 	public String getDataSource(String name, String masterDataSourceName, List<String> slaveDataSourceNames) {
+		String shadow = DynamicDataSourceShadowHolder.get();
+		if(null != shadow) {
+			return shadow;
+		}
 		String key = DynamicDataSourceContextHolder.peek();
 		if (null == key) {
 			if (slaveDataSourceNames.size() == 0) {

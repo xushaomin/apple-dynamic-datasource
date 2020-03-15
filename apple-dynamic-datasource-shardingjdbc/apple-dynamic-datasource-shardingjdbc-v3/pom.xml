@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>com.appleframework.dynamic.datasource</groupId>
 		<artifactId>apple-dynamic-datasource-shardingjdbc</artifactId>
-		<version>0.0.2.RELEASE</version>
+		<version>0.0.3-SNAPSHOT</version>
 	</parent>
 	<artifactId>apple-dynamic-datasource-shardingjdbc-v3</artifactId>
 	<name>apple-dynamic-datasource-shardingjdbc-v3</name>
