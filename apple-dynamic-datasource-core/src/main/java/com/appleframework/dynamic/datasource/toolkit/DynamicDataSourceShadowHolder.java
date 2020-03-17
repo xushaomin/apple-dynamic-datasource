@@ -16,6 +16,8 @@
  */
 package com.appleframework.dynamic.datasource.toolkit;
 
+import com.alibaba.ttl.TransmittableThreadLocal;
+
 /**
  * 核心基于ThreadLocal的切换影子库数据源工具类
  *
@@ -33,8 +35,9 @@ public final class DynamicDataSourceShadowHolder {
 	 * 传统的只设置当前线程的方式不能满足此业务需求，必须模拟栈，后进先出。
 	 * </pre>
 	 */
-	private static final ThreadLocal<String> SHADOW_KEY_HOLDER = new ThreadLocal<String>();
-
+	private static final TransmittableThreadLocal<String> SHADOW_KEY_HOLDER = new TransmittableThreadLocal<String>();
+	//private static final ThreadLocal<String> SHADOW_KEY_HOLDER = new InheritableThreadLocal<String>();
+	
 	private DynamicDataSourceShadowHolder() {
 	}
 

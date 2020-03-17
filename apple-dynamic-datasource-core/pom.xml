@@ -71,6 +71,11 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
 		</dependency>
+		
+		<dependency>
+  			<groupId>com.alibaba</groupId>
+  			<artifactId>transmittable-thread-local</artifactId>
+		</dependency>
 
 	</dependencies>
 	
