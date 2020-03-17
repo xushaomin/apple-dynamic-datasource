@@ -18,6 +18,9 @@ public class DynamicMasterSlaveLoadBalanceAlgorithm implements MasterSlaveLoadBa
 	@Override
 	public String getDataSource(String name, String masterDataSourceName, List<String> slaveDataSourceNames) {
 		String shadow = DynamicDataSourceShadowHolder.get();
+		if (logger.isInfoEnabled()) {
+			logger.info("the shadow datasource is " + shadow);
+		}
 		if(null != shadow) {
 			return shadow;
 		}
